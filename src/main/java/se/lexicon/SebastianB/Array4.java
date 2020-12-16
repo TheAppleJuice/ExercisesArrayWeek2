@@ -2,18 +2,34 @@ package se.lexicon.SebastianB;
 
 import java.util.Arrays;
 
+import static java.util.Arrays.*;
+
 public class Array4 {
     public static void main(String[] args) {
 
-        int[] numbers = {200,700,900,4555,34500,445000,500000};
+        int [] array1 = new int[] {1, 15, 20};
+        int [] array2 = new int[array1.length];
 
-        int indexFound = Arrays.binarySearch(numbers, 900);
-        int indexNotFound = Arrays.binarySearch(numbers, 4450);
+        for (int i=0; i<array1.length; i++) {
+            array2[i] = array1[i];
 
-        System.out.println(indexFound);
-        System.out.println(indexNotFound);
+        }
+
+        System.out.println("Elements from first array: ");
+
+        for (int i = 0; i<array1.length; i++) {
+            System.out.print(array1[i] + " ");
+        }
+        System.out.println();
+        System.out.println("Elements from second array: ");
+
+        for (int i = 0; i < array2.length; i++) {
+            System.out.print(array2[i] + " ");
+        }
 
 
-    }
+
+
+        }
 }
 
