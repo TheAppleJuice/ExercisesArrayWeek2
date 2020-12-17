@@ -14,7 +14,6 @@ public class Array2 {
 
         int indexFound = Arrays.binarySearch(indexOf, 5);
         int indexNotFound = Arrays.binarySearch(indexOf, 7);
-
         System.out.println(indexFound);
         System.out.println(indexNotFound);
 
