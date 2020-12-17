@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Array5 {
     /*
+    5.
     Create a two-dimensional string array [2][2].
     Assign values to the 2d array containing any Country and City.
     Expected output:
