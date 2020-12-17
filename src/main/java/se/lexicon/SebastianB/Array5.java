@@ -34,12 +34,17 @@ public class Array5 {
         cityCountry[1][0] = "Sweden";
         cityCountry[1][1] = "Stockholm";
 //One way to do it
+
+
         for(String[] country : cityCountry){
             for (String value : country){
                 System.out.print(value + " ");
             }
             System.out.println();
         }
+
+
+/*
 
 //Another way to do it
         for( int i=0; i < cityCountry.length; i++){
@@ -51,6 +56,8 @@ public class Array5 {
 
             }
 
+
+ */
         }
 
 
