@@ -13,18 +13,6 @@ public class Array5 {
     * */
 
         public static void main (String[]args){
-/*
-        int [] testArray = new int[10];
-
-
-        for (int i=0; i<testArray.length; i++){
-            testArray[i]=i+1;
-            System.out.println(testArray[i]);
-        }
-
-            System.out.println(Arrays.toString(testArray));
-
- */
 
 
         String[][] cityCountry = new String[2][2];
@@ -34,9 +22,8 @@ public class Array5 {
 
         cityCountry[1][0] = "Sweden";
         cityCountry[1][1] = "Stockholm";
+
 //One way to do it
-
-
         for(String[] country : cityCountry){
             for (String value : country){
                 System.out.print(value + " ");

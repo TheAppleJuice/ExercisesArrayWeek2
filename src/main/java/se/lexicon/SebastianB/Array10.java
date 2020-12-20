@@ -8,12 +8,18 @@ Hint: You have two-dimensional array with values
  */
 public class Array10 {
 
+    //Build array.
+    //Loops through row and column.
+    //condition for addition of row * column.
+    //Build array of products from addition.
+    //Print new product array.
+
     public static void main(String[] args) {
         int[][] array1 = new int[10][10];
 
         array1 = multiplication(10,10);
 
-
+// row = i, column = j.
         for (int i = 0; i < array1.length ; i++)
         {
             for (int j = 0; j < array1[i].length; j++)
@@ -32,10 +38,12 @@ public class Array10 {
         {
             for (int j = 0; j < array2[i].length; j++)
             {
+                //Array multiplication
                 array2[i][j] = (i+1)*(j+1);
             }
 
         }
+        //New array to store the product of the multiplication of array
         return array2;
     }
 

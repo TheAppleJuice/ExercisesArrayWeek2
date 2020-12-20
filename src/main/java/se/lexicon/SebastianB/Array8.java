@@ -14,7 +14,7 @@ public class Array8 {
     //Method for sorting array.
     //Method search array for duplicate elements.
     //Method remove duplicates elements from array.
-    //Method for new array with out duplicates.
+    //Method for new array without duplicates.
 
 
     public static void main(String[] args) {
@@ -22,7 +22,6 @@ public class Array8 {
         Arrays.sort(array);
         int len = array.length;
         int j = 0;
-
         for (int i=0; i < len - 1; i++){
             if (array[i] !=array[i+1]){
                 array[j++] =array[i];
